@@ -1,0 +1,7 @@
+[build]
+  publish = "thegame-device-demo"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
